@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:background="@drawable/bglogin">
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"></LinearLayout>
+
+       <!--<ImageView-->
+           <!--android:id="@+id/yuan1"-->
+           <!--android:layout_width="90dp"-->
+           <!--android:layout_height="90dp"-->
+           <!--android:layout_gravity="center"-->
+           <!--android:src="@drawable/head"-->
+           <!--tools:layout_editor_absoluteX="137dp"-->
+           <!--tools:layout_editor_absoluteY="33dp" />-->
+
+       <com.example.tr.dx.CircleImageView
+           android:id="@+id/yuan1"
+           android:layout_width="90dp"
+           android:layout_height="90dp"
+           android:layout_gravity="center"
+           android:scaleType="centerCrop"
+           android:src="@drawable/head" />
+         <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit3"
+            android:hint="number"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:contentDescription="number"
+            android:inputType="number"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit4"
+            android:hint="num+case"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPassword"/>
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/edit5"
+           android:hint="repeat"
+           android:layout_gravity="center"
+           android:ems="10"
+           android:inputType="textPassword"/>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_gravity="center"
+           android:orientation="horizontal">
+           <Button
+               android:id="@+id/reg"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:backgroundTint="#ffffff"
+               android:text="注册"/>
+       </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

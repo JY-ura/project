@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Index">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="?attr/colorPrimary">
+
+        <com.example.tr.dx.CircleImageView
+            android:id="@+id/yuan"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/head" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="相册预览"/>
+        <ImageView
+            android:id="@+id/switchchang"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingRight="8dp"
+            android:layout_gravity="center"
+            android:src="@drawable/kuai"/>
+
+    </LinearLayout>
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/viewpager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--</android.support.v4.view.ViewPager>-->
+
+
+    <FrameLayout
+        android:paddingTop="60dp"
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+    <include layout="@layout/content_index" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/camera"
+        app:backgroundTint="@color/colorPrimaryDark"
+        tools:srcCompat="@mipmap/ic_launcher_round" />
+
+</android.support.design.widget.CoordinatorLayout>

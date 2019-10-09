@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom">
+
+    <ImageView
+        android:id="@+id/listimage"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:src="@drawable/camera"/>
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/listtext"
+        android:textSize="9sp"
+        android:text="2018.11.6 12.65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
