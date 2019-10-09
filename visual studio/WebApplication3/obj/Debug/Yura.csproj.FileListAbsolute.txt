@@ -1,0 +1,8 @@
+D:\project\visual studio\test\WebApplication3\WebApplication3\bin\WebApplication3.dll
+D:\project\visual studio\test\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+D:\project\visual studio\test\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+D:\project\visual studio\test\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+D:\project\visual studio\test\Yura\WebApplication3\bin\WebApplication3.dll
+D:\project\visual studio\test\Yura\WebApplication3\bin\WebApplication3.pdb
+D:\project\visual studio\test\Yura\WebApplication3\obj\Debug\WebApplication3.dll
+D:\project\visual studio\test\Yura\WebApplication3\obj\Debug\WebApplication3.pdb

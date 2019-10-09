@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication2._20190422.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="App_Themes/themetest/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="header">
+            <div class="h_left">
+                <img src="images/TIM图片20190422155552.jpg" style="height: 240px; width: 240px"/>
+            </div>
+            <div class="h_right">
+            <ul>
+                <li>首页</li>
+                <li>新闻</li>
+                <li>购物</li>
+                <li>论坛</li>
+                <li>emai</li>
+            </ul>
+            </div>
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+            <div class="footer">
+                <span>@版权归姚彦梦所有</span>
+            </div>
+    </div>
+    </form>
+</body>
+</html>
