@@ -38,7 +38,7 @@
 		<taglibs-standard-spec.version>1.2.5</taglibs-standard-spec.version>
 		<slf4j-api.version>1.7.25</slf4j-api.version>
 		<slf4j-log4j12.version>1.7.25</slf4j-log4j12.version>
-		<ant.version>1.9.6</ant.version>
+		<ant.version>1.10.9</ant.version>
 		<ant-launcher.version>1.9.6</ant-launcher.version>
 		<!-- not using -->
 		<struts.version>2.3.24.1</struts.version>
